@@ -3,7 +3,6 @@
 __pycache__/
 venv/
 .pytest_cache/
-data/
 results/
 .DS_Store
 results/
