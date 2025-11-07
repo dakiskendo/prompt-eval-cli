@@ -2,18 +2,19 @@
 # Load your OpenAI API key from .env
 python-dotenv
 # Show progress bars when evaluating many prompts
-tqdm
 # For metrics, tabular results, data analysis
 numpy
-pandas
 
 ###### NLP / Evaluation
 # For BLEU and text metrics
-nltk
-
+sacrebleu
+pandas
 ###### Model APIs
 # To call GPT models
 openai
 requests
 pytest
 huggingface_hub
+tabulate
+sentence-transformers
+
